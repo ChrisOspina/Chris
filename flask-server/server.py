@@ -12,9 +12,10 @@
 from flask import Flask, request, jsonify
 import requests
 from flask_cors import CORS
-# from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model
 # from optimized_model_pred import get_finding, load_model # uncomment for new model
-from chexpert_prediction import get_finding, load_model
+from chexpert_prediction import get_finding
+#load_model
 
 # model_path = 'chexpert_cuda_trained_model.pth'  # use this as new model path
 
